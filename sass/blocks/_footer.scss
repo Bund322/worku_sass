@@ -1,0 +1,17 @@
+.page__footer {
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+    color: white;
+    h5 {
+        font-size: 18px;
+        line-height: 139%;
+    }
+}
+.footer__container {
+    padding: 38px 0;
+    width: 1194px;
+    display: flex;
+    justify-content: space-between;
+}

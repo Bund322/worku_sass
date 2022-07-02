@@ -1,0 +1,38 @@
+.section-first {
+    background-color: #140D2D;
+    color: white;
+    background-image: url("../img/hero-img.png");
+    background-position: right;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+}
+.section-first__container {
+    width: 1036px;
+    
+    // padding: 157px 0 260px 6%;
+    padding-top: 130px;
+    padding-bottom: 300px;
+
+    @media screen and (max-width: 1200px) {
+        padding: 157px 0 260px 0;
+    }
+}
+.section-first__container--size {
+    width: 744px;
+    h1 {
+        font-size: 60px;
+        line-height: 125%;
+        text-transform: capitalize;
+    }
+    h1 + * {
+        margin-top: 32px;
+    }
+    p {
+        width: 489px;
+    }
+    p + * {
+        margin-top: 30px;
+    }
+}
