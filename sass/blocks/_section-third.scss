@@ -1,0 +1,52 @@
+.section-third {
+    background-color: #140D2D;
+    padding: 64px 0;
+    display: flex;
+    justify-content: center;
+}
+.section-third__container {
+    width: 1036px;
+}
+.section-third__header {
+    h1 {
+        font-size: 50px;
+        line-height: 130%;
+
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+
+        color: white;
+    }
+    + * {
+        margin-top: 32px;
+    }
+}
+.section-third__card {
+    display: flex;
+    align-items: center;
+}
+.section-third__img {
+    + * {
+        margin-left: 17px;
+    }
+}
+.section-third__text {
+    h5 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 114%;
+
+        text-transform: capitalize;
+        color: white;
+    }
+    p {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 167%;
+
+        text-transform: uppercase;
+
+        color: #8F85B3;
+    }
+}

@@ -1,0 +1,28 @@
+.button {
+    background-color: white;
+    border: 0;
+    border-radius: 6px;
+
+    padding: 12px 44px;
+
+    cursor: pointer;
+
+    font-size: 20px;
+    line-height: 100%;
+
+    transition: color 0.2s ease-in, background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #e6e6e6;
+    }
+    
+}
+.button--yellow {
+    background-color: #d7f300;
+    &:hover {
+        background-color: darken(#d7f300, 7%);
+    }
+}
+.cards__button {
+    height: 61px;
+}

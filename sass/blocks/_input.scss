@@ -1,0 +1,27 @@
+.input {
+    width: 488px;
+    height: 55px;
+
+    background-color: #F2F0F0;
+    border: 0;
+    border-radius: 3px;
+
+    font-size: 18px;
+    line-height: 139%;
+
+    padding: 15px 13px;
+
+    transition: box-shadow 0.15s ease-in-out;
+    &::placeholder {
+        color: rgba(20, 13, 45, 0.2);
+    }
+    + * {
+        margin-top: 20px;
+    }
+    &:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    }
+    &:focus {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    }
+}
